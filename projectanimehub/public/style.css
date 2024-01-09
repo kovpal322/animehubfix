@@ -1,0 +1,181 @@
+body, section {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/*header.css*/
+.spacer {
+    aspect-ratio: 960/110;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    font-size: 20px;
+    margin: 0 !important;
+  }
+  
+  .layer1 {
+    background-image: url('wave-header.svg');
+  }
+  .navbar-brand {
+    color: #fff !important;
+    margin-top: -50px;
+  }
+  
+  .navbar-nav {
+    margin-top: -50px;
+    
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  /* Section.css */
+.anime-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .anime-info {
+    margin-left: 20px;
+    flex-grow: 1;
+    color: white;
+  }
+  .layer2 {
+    color: #fff;
+    text-align: center;
+    background-image: url('./wave-1.svg');
+  }
+  .layer2 h2{
+    padding-top: 80px;
+  }
+  /* LayerKategoriak.css */
+  .layoutgrid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 80px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  .kat {
+    background-color: #002233;
+  }
+  .menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .layer3{
+    background-image: url('wawe-2.svg');
+  }
+  .anime{
+    padding: 20px;
+  }
+  h3{
+    margin: 0;
+  }
+  .layer4{
+    color: #fff;
+    text-align: center;
+    background-image: url('wave-4.svg');
+  }
+  .layer4 h2{
+    padding-top: 90px;
+  }
+
+  .arrow-btn{
+    padding: 1rem;
+    width: 200px;
+  
+    color: #fff;
+    background-color: transparent;
+   margin: 1rem;
+  }
+  #anime-list h2{
+    color: #fff;
+  }
+  .popup {
+    display:none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 5;
+}
+
+.popup-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+.spacer {
+    margin-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  .navbar-brand img {
+      width: 80px;
+      height: 80px;
+  }
+
+  .navbar-brand {
+      font-size: 16px;
+  }
+
+  .anime-content {
+      padding: 10px;
+  }
+
+  .anime-info h1 {
+      font-size: 18px;
+  }
+
+  .anime-info p {
+      font-size: 14px;
+  }
+
+  .card-body input,
+  .card-body button {
+      margin-bottom: 10px;
+  }
+}
+
+    @media (max-width: 768px) {
+      .anime-image {
+      display: none; /* A képet elrejtjük */
+    }
+
+      #animeImageContainer {
+      text-align: center; /* A szöveget középre igazítjuk, ha a kép nincs jelen */
+    }
+
+    .anime-info {
+      text-align: center; /* A szöveget középre igazítjuk */
+  }
+}
